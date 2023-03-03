@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messes || Guide to Nadin Amizah</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+<header>
+  <div class="jumbotron">
+    <h1>Messes</h1>
+    <p>Guide to Nadin Amizah</p>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#debut">Debut Day</a></li>
+      <li><a href="#career">Nowadays</a></li>
+    </ul>
+  </nav>   
+</header>
+<main>
+    <div id="content">
+        <article id="about" class="card">
+          <h2>About</h2>
+          <img src="assets/image/nadin.jpg" class="featured-image" alt="About">
+          <p>
+            Nadin Amizah (lahir 28 Mei 2000) adalah penyanyi dan penulis lagu berkebangsaan Indonesia.
+        </article>
+        
+        <article id="debut" class="card">
+          <h2>Debut Day</h2>
+          <img src="assets/image/Debut-nadin.jpg" class="featured-image" alt="Debut Day">
+          <p>
+            Nadin mulai dikenal publik saat masih di bangku SMA. Ia berkolaborasi dengan Dipha Barus membawakan lagu single 
+            "All Good" pada tahun 2017. Nadin dan Dipha juga muncul mengenalkan lagu itu untuk pertama kalinya di panggung besar 
+            Djakarta Warehouse Project.
+          </p>
+          <p>
+            Sebelum memulai karier menyanyinya, Nadin memulai debut di salah satu program stasiun TV swasta Trans TV 
+            "Social Media Sensation" pada tahun 2016.
+            Lewat Label Sorai, Nadin telah mengeluarkan empat single sampai dengan tahun 2019 yakni “Rumpang” di bulan September 2018, 
+            “Sorai” di bulan Januari 2019, “Star” di akhir Maret 2019 dan “Seperti Tulang” di 27 September 2019. Nadin juga sudah 
+            berkolaborasi dengan beberapa penyanyi, dengan menghasilkan beberapa lagu seperti “Beauty and the Beast” bersama Adera, 
+            “Teralih” dengan Matter Halo dan terakhir lewat lagu “Amin paling Serius” bersama Sal Priadi.
+            Pada 28 Mei 2020, Nadin merilis Album "Selamat Ulang Tahun".
+          </p>
+        </article>
+        
+        <article id="career" class="card">
+          <h2>Nowadays</h2>
+          <p>
+            Meski terbilang masih baru, Nadin Amizah berhasil menyabet piala paling bergengsi di industri musik Tanah Air. Tahun 2019 lalu Nadin meraih dua piala AMI Awards. Sebelumnya, Nadin masuk dalam kategori AMI Awards tahun 2017.
+          </p>
+          <section>
+            <h3>Music</h3>
+            <img src="assets/image/nadin-amizah1.jpeg" class="featured-image" alt="Music">
+            <p>
+              Sejak duduk dibangku SMA, Nadin aktif sebagai penyanyi cover di YouTube dan Instagram. Ia membawakan beberapa lagu penyanyi terkenal diantaranya bright eyes dari lua, From the Dining Table dari Harry Styles dan Half The World Away dari Aurora.
+              Tak hanya sebagai penyanyi cover, Nadin juga pernah mengikuti ajang pencarian bakat di salah satu program stasiun televisi swasta bertajuk Social Media Sensation. Dalam ajang tersebut, Nadin keluar sebagai juara ketiga.
+            </p>
+          </section>
+          <section>
+            <h3>Education</h3>
+            <img src="assets/image/nadinakuw.jpg" class="featured-image" alt="education">
+            <p>
+              Penyanyi Nadin Amizah resmi mendapatkan gelar sarjana bidang ilmu komunikasi di London School of Public Relations (LSPR) pada Kamis (1/12/2022). Meski terkenal sebagai penyanyi, Nadin Amizah tetap mengutamakan pendidikan tingginya. Bahkan, Nadin dinyatakan lulus tepat waktu dengan nilai yang sangat memuaskan.
+            </p>
+          </section>
+        </article>
+      </div>
+      
+      <aside>
+        <article class="profile card">
+             <header>
+                 <h2>The man behind all of this</h2>
+                 <figure>
+                    <img src="assets/image/fuad.jpeg">
+                    <figcaption>Achmad Fuad Abizar</figcaption>
+                  </figure>
+             </header>
+             <section>
+                <h3>Others</h3>
+                <table>
+                   <tr>
+                      <th>Kampus</th>
+                      <td>Institut Teknologi PLN</td>
+                   </tr>
+                   <tr>
+                      <th>Hari jadi</th>
+                      <td>19 September 2002</td>
+                   </tr>
+                   <tr>
+                      <th>Tinggi</th>
+                      <td>165 cm</td>
+                   </tr>
+                   <tr>
+                      <th>Asal</th>
+                      <td>Bulukumba, Sulawesi Selatan</td>
+               </table>
+             </section>
+             <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Social Media</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="https://instagram.com/fuadabizar">Instagram</a>
+                <a href="https://www.linkedin.com/in/achmad-fuad-abizar-926655225/">Linkedin</a>
+                <a href="https://github.com/fuadabizar">Github</a>
+              </div>
+            </div>
+            <script>
+              function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+              }
+  
+              window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                  var dropdowns = document.getElementsByClassName("dropdown-content");
+                  var i;
+                  for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                      openDropdown.classList.remove('show');
+                    }
+                  }
+                }
+              }
+            </script>
+        </article>
+    </aside>
+</main>
+<footer>
+       <p>&COPY; Achmad Fuad Abizar, 2023.</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
